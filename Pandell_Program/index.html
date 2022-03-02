@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pandell Application</title>
+</head>
+<body>
+    This is the requested application. Enjoy!
+</body>
+<br></br>
+<p>
+    <script>
+        const ARRAY_LENGTH = 10001
+        const randomArray = []
+        min = Math.ceil(1)
+        max = Math.floor(10000)
+
+        /**Returns random integer between min (inclusive) and max (inclusive).
+        *value is no lower than 1 and no greater than max (or next integer greater than min
+        or lower than max) */
+
+        for(let i=0; i<ARRAY_LENGTH; i++){randomArray.push(Math.floor
+            (Math.random() * (max - min + 1)) + min)}
+
+        document.write(randomArray)    
+    </script>
+</p>
+</html>
